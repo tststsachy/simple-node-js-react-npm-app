@@ -19,7 +19,8 @@ pipeline {
     }
     stage('Deliver') {
       steps {
-        sh '''input message: \'Finished? (Click "Proceed" to continue)\'
+        sh '''echo \'a\'
+input message: \'Finished? (Click "Proceed" to continue)\'
 '''
       }
     }
