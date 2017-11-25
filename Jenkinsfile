@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'build-master'
-    }
+    agent none
     stages {
         stage('Test') {
             steps {
