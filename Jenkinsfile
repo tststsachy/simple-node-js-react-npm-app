@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Deliver') {
       steps {
-        input '\'Finished? (Click "Proceed" to continue)\''
+        input 'Finished? (Click "Proceed" to continue)'
       }
     }
   }
